@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e8e8e8;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vw 20vw;
+  width: 75vw;
+  height: 100vh;
+}
+
+.container .calculator {
+  padding: 2vw 0.5vw;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #f2f3f5;
+  -webkit-box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #f2f3f5;
+  -moz-box-shadow: 5px 5px 10px #babecc, -5px -5px 10px #f2f3f5;
+}
+
+.calculator .hasil {
+  display: flex;
+  justify-content: center;
+}
+
+.hasil input {
+  padding: 5vw 1vw;
+  width: 82%;
+  height: 10vw;
+  text-align: right;
+  font-size: 5vw;
+  color: #757575;
+  border: none;
+  border-radius: 1vw;
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  -webkit-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  -moz-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+}
+
+.calculator .tombol__calculator {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2vw;
+  column-gap: 2.5vw;
+  row-gap: 1vw;
+}
+
+.tombol__calculator button {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  border: none;
+  border-radius: 1vw;
+  background-color: #e8e8e8;
+  box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  -webkit-box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  -moz-box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+  color: #757575;
+  font-size: 1.5vw;
+  font-weight: 600;
+  transition: all 1s ease-in;
+}
+
+.tombol__calculator button:active {
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  -webkit-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  -moz-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  transition: all 1s ease-out;
+}
+
+.tombol__calculator .kurang {
+  font-size: 3vw;
+}
+
+.tombol__calculator .kali {
+  font-size: 2vw;
+}
+
+.tombol__calculator .tambah {
+  font-size: 2vw;
+}
+
+.tombol__calculator .sama__dengan {
+  width: 12.5vw;
+}
