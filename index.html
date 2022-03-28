@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="app.css" />
+
+    <!-- Logo URL -->
+    <link rel="icon" type="image/x-icon" href="logo-url.png" />
+
+    <title>Calculator - Progate</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="hasil">
+          <input type="text" id="outputAngka" placeholder="0" />
+        </div>
+        <div class="tombol__calculator">
+          <button onclick="Clear()">AC</button>
+          <button onclick="hapus()">DEL</button>
+          <button onclick="inputNilai('%')">%</button>
+          <button onclick="inputNilai('/')">/</button>
+          <button onclick="inputNilai('7')">7</button>
+          <button onclick="inputNilai('8')">8</button>
+          <button onclick="inputNilai('9')">9</button>
+          <button class="kali" onclick="inputNilai('*')">*</button>
+          <button onclick="inputNilai('4')">4</button>
+          <button onclick="inputNilai('5')">5</button>
+          <button onclick="inputNilai('6')">6</button>
+          <button class="kurang" onclick="inputNilai('-')">-</button>
+          <button onclick="inputNilai('1')">1</button>
+          <button onclick="inputNilai('2')">2</button>
+          <button onclick="inputNilai('3')">3</button>
+          <button class="tambah" onclick="inputNilai('+')">+</button>
+          <button onclick="inputNilai('0')">0</button>
+          <button onclick="inputNilai('.')">.</button>
+          <button onclick="hitung()" class="sama__dengan">=</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Js -->
+    <script src="app.js"></script>
+  </body>
+</html>
