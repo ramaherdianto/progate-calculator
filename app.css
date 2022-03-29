@@ -90,6 +90,7 @@ body {
 .tombol__calculator .btn__clear {
   background-color: #303841dc;
   color: #e8e8e8;
+  width: 19vw;
 }
 
 .tombol__calculator .btn__hapus {
@@ -196,6 +197,10 @@ body {
     -moz-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
   }
 
+  .tombol__calculator .btn__clear {
+    width: 36vw;
+  }
+
   .tombol__calculator .btn__kurang {
     font-size: 5vw;
     border-radius: 50%;
@@ -274,6 +279,10 @@ body {
     box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
     -webkit-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
     -moz-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  }
+
+  .tombol__calculator .btn__clear {
+    width: 53.3vw;
   }
 
   .tombol__calculator .btn__kurang {

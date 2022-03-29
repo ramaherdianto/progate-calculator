@@ -17,33 +17,33 @@
     <div class="container">
       <div class="calculator">
         <div class="hasil">
-          <input type="text" id="outputAngka" placeholder="0" />
+          <input type="text" class="calculator-screen" value="0" />
         </div>
         <div class="tombol__calculator">
-          <button class="btn__clear" onclick="Clear()">AC</button>
-          <button class="btn__hapus" onclick="hapus()">DEL</button>
-          <button class="btn__modulus" onclick="inputNilai('%')">%</button>
-          <button class="btn__bagi" onclick="inputNilai('/')">/</button>
-          <button onclick="inputNilai('7')">7</button>
-          <button onclick="inputNilai('8')">8</button>
-          <button onclick="inputNilai('9')">9</button>
-          <button class="btn__kali" onclick="inputNilai('*')">*</button>
-          <button onclick="inputNilai('4')">4</button>
-          <button onclick="inputNilai('5')">5</button>
-          <button onclick="inputNilai('6')">6</button>
-          <button class="btn__kurang" onclick="inputNilai('-')">-</button>
-          <button onclick="inputNilai('1')">1</button>
-          <button onclick="inputNilai('2')">2</button>
-          <button onclick="inputNilai('3')">3</button>
-          <button class="btn__tambah" onclick="inputNilai('+')">+</button>
-          <button class="btn__nol" onclick="inputNilai('0')">0</button>
-          <button onclick="inputNilai('.')">.</button>
-          <button onclick="hitung()" class="sama__dengan">=</button>
+          <button class="btn__clear">AC</button>
+          <!-- <button class="hapus btn__hapus">DEL</button>
+          <button class="operator btn__modulus">%</button> -->
+          <button class="operator btn__bagi" value="/">/</button>
+          <button class="number" value="7">7</button>
+          <button class="number" value="8">8</button>
+          <button class="number" value="9">9</button>
+          <button class="operator btn__kali" value="*">&times;</button>
+          <button class="number" value="4">4</button>
+          <button class="number" value="5">5</button>
+          <button class="number" value="6">6</button>
+          <button class="operator btn__kurang" value="-">-</button>
+          <button class="number" value="1">1</button>
+          <button class="number" value="2">2</button>
+          <button class="number" value="3">3</button>
+          <button class="operator btn__tambah" value="+">+</button>
+          <button class="number btn__nol" value="0">0</button>
+          <button class="decimal" value=".">.</button>
+          <button class="sama__dengan">=</button>
         </div>
       </div>
     </div>
 
     <!-- Js -->
-    <script src="app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
