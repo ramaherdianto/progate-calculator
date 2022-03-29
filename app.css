@@ -160,3 +160,62 @@ body {
     width: 24vw;
   }
 }
+
+/* ========= Mobile Version ======== */
+@media all and (max-width: 576px) {
+  .container {
+    width: 100vw;
+    padding: 0 6vw;
+    height: 100vh;
+  }
+
+  .container .calculator {
+    width: 100%;
+    padding: 7vw 2vw;
+    border-radius: 2vw;
+  }
+
+  .hasil input {
+    font-size: 11vw;
+    padding: 15vw 2vw;
+    border-radius: 2vw;
+    box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+    -webkit-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+    -moz-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  }
+
+  .calculator .tombol__calculator {
+    row-gap: 5vw;
+    column-gap: 4vw;
+    margin-top: 8vw;
+  }
+
+  .tombol__calculator button {
+    width: 15vw;
+    height: 15vw;
+    font-size: 3.8vw;
+    border-radius: 2vw;
+  }
+
+  .tombol__calculator button:active {
+    box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+    -webkit-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+    -moz-box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px #f2f3f5;
+  }
+
+  .tombol__calculator .kurang {
+    font-size: 7vw;
+  }
+
+  .tombol__calculator .kali {
+    font-size: 5vw;
+  }
+
+  .tombol__calculator .tambah {
+    font-size: 6vw;
+  }
+
+  .tombol__calculator .sama__dengan {
+    width: 35vw;
+  }
+}
